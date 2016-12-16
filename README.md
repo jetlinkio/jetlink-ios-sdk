@@ -76,12 +76,11 @@ You can send basic user information at the beginning to give you more context on
 
 ```
 
-	let jetLinkUser = JetlinkUser()
-	jetLinkUser.email = "salman.khan@veslabs.com"
-	jetLinkUser.name = "Salman"
-	jetLinkUser.surname = "Khan"
-	
-	JetlinkApp.user = jetLinkUser
+	let jetlinkUser = JetlinkUser()
+	jetlinkUser.email = "test-user@jetlink.io"
+	jetlinkUser.name = "Tester Name"
+	jetlinkUser.surname = "Tster Surname"	
+	JetlinkApp.user = jetlinkUser
 
 ```
 
