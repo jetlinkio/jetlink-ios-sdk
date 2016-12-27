@@ -20,7 +20,7 @@ You can use [Cocoapods](http://cocoapods.org/) to install `Jetlink` by adding it
 ```ruby
 platform :ios, '9.0'
 use_frameworks!
-pod 'Jetlink'
+pod 'JetlinkSDK'
 ```
 
 #### b. Manual Install
@@ -35,19 +35,10 @@ pod 'Jetlink'
 
 #### 2.1. Go to Build Settings of the target of your project and set `Enable Bitcode` to `No`
 
-#### 2.2. If you haven't set your info.plist for network connections, 
-you can open your info.plist file, then copy and paste this XML code block into it
-```
-<key>NSAppTransportSecurity</key>
-<dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
-</dict>
-```
 Or you can select your 'Info.plist' file, then you can also add a new row named `NSAppTransportSecurity` as dictionary
 Then you can add a new value inside the dictionary named `NSAllowsArbitraryLoads` and set it to `YES`
 
-#### 2.3. (optional) If you see so many unnecessary debug log on console;
+#### 2.2. (optional) If you see so many unnecessary debug log on console;
 1) Go to Edit Scheme
 2) Tap to Arguments tab
 3) Add the Environment Variable 'OS_ACTIVITY_MODE' is 'disable'
