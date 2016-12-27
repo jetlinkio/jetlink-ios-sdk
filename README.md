@@ -35,9 +35,6 @@ pod 'JetlinkSDK'
 
 #### 2.1. Go to Build Settings of the target of your project and set `Enable Bitcode` to `No`
 
-Or you can select your 'Info.plist' file, then you can also add a new row named `NSAppTransportSecurity` as dictionary
-Then you can add a new value inside the dictionary named `NSAllowsArbitraryLoads` and set it to `YES`
-
 #### 2.2. (optional) If you see so many unnecessary debug log on console;
 1) Go to Edit Scheme
 2) Tap to Arguments tab
