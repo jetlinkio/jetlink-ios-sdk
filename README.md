@@ -15,31 +15,17 @@
 
 #### a. Install via Cocoapods
 
-You can use [Cocoapods](http://cocoapods.org/) to install `Jetlink` by adding it to your `Podfile`:
+You can use [Cocoapods](http://cocoapods.org/) to install `JetlinkSDK` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '9.0'
+platform :ios, '8.0'
 use_frameworks!
 pod 'JetlinkSDK'
 ```
 
-#### b. Manual Install
-
-1. Download the example project
-2. Drag the Jetlink.framework into your project browser, drop and add into your project.
-3. Select "Copy items if needed", so that you will have a copy of the framework under your project folder.
-4. Congratulations
-
-
 ### 2. Project Settings
 
-#### 2.1. Go to Build Settings of the target of your project and set `Enable Bitcode` to `No`
-
-#### 2.2. (optional) If you see so many unnecessary debug log on console;
-1) Go to Edit Scheme
-2) Tap to Arguments tab
-3) Add the Environment Variable 'OS_ACTIVITY_MODE' is 'disable'
-
+Go to Build Settings of the target of your project and set `Enable Bitcode` to `No`
 
 ### 3. Initialize JetLink
 
@@ -66,8 +52,9 @@ You can send basic user information at the beginning to give you more context on
 
 	let jetlinkUser = JetlinkUser()
 	jetlinkUser.email = "test-user@jetlink.io"
-	jetlinkUser.name = "Tester Name"
-	jetlinkUser.surname = "Tster Surname"	
+	jetlinkUser.name = "Jetlink"
+	jetlinkUser.surname = "Tester"
+	
 	JetlinkApp.user = jetlinkUser
 
 ```
