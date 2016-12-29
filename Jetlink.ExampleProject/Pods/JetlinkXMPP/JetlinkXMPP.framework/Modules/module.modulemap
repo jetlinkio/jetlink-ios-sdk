@@ -1,0 +1,6 @@
+framework module JetlinkXMPP {
+  umbrella header "JetlinkXMPP.h"
+
+  export *
+  module * { export * }
+}

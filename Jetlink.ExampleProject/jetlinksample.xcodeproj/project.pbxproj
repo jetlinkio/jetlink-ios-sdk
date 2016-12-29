@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C8ED1D9B82C48FDB8D59D3 /* Pods_jetlinksampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820E30F465930A04576D1D7F /* Pods_jetlinksampleTests.framework */; };
+		177E0A548F2CAE695E762705 /* Pods_jetlinksampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A6E34928909A50EF85DB7D /* Pods_jetlinksampleUITests.framework */; };
+		85F9D119F37AD9D94C87FEB3 /* Pods_jetlinksample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0D004ED3A4A4E56F776947 /* Pods_jetlinksample.framework */; };
+		8CB5408F1E0DA77700F37F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB5408E1E0DA77700F37F0B /* AppDelegate.swift */; };
+		8CB540911E0DA77700F37F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB540901E0DA77700F37F0B /* ViewController.swift */; };
+		8CB540941E0DA77700F37F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB540921E0DA77700F37F0B /* Main.storyboard */; };
+		8CB540961E0DA77700F37F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB540951E0DA77700F37F0B /* Assets.xcassets */; };
+		8CB540991E0DA77700F37F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB540971E0DA77700F37F0B /* LaunchScreen.storyboard */; };
+		8CB540A41E0DA77700F37F0B /* jetlinksampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB540A31E0DA77700F37F0B /* jetlinksampleTests.swift */; };
+		8CB540AF1E0DA77700F37F0B /* jetlinksampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB540AE1E0DA77700F37F0B /* jetlinksampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB540A01E0DA77700F37F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB540831E0DA77600F37F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB5408A1E0DA77600F37F0B;
+			remoteInfo = jetlinksample;
+		};
+		8CB540AB1E0DA77700F37F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB540831E0DA77600F37F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB5408A1E0DA77600F37F0B;
+			remoteInfo = jetlinksample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		207665619C45CB299BD35678 /* Pods-jetlinksampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jetlinksampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jetlinksampleUITests/Pods-jetlinksampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6075DFCB84051AC5F1A13DB4 /* Pods-jetlinksample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jetlinksample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jetlinksample/Pods-jetlinksample.debug.xcconfig"; sourceTree = "<group>"; };
+		79A6E34928909A50EF85DB7D /* Pods_jetlinksampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jetlinksampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8013CA87AC93ED65794D7ABF /* Pods-jetlinksampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jetlinksampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jetlinksampleTests/Pods-jetlinksampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		820E30F465930A04576D1D7F /* Pods_jetlinksampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jetlinksampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB5408B1E0DA77700F37F0B /* jetlinksample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jetlinksample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB5408E1E0DA77700F37F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CB540901E0DA77700F37F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CB540931E0DA77700F37F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CB540951E0DA77700F37F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB540981E0DA77700F37F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CB5409A1E0DA77700F37F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB5409F1E0DA77700F37F0B /* jetlinksampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jetlinksampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB540A31E0DA77700F37F0B /* jetlinksampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jetlinksampleTests.swift; sourceTree = "<group>"; };
+		8CB540A51E0DA77700F37F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB540AA1E0DA77700F37F0B /* jetlinksampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jetlinksampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB540AE1E0DA77700F37F0B /* jetlinksampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jetlinksampleUITests.swift; sourceTree = "<group>"; };
+		8CB540B01E0DA77700F37F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C6B1C85DC49E994A7E0A32 /* Pods-jetlinksampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jetlinksampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jetlinksampleTests/Pods-jetlinksampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC0D004ED3A4A4E56F776947 /* Pods_jetlinksample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jetlinksample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF62A2747031ED7991940C8 /* Pods-jetlinksampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jetlinksampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jetlinksampleUITests/Pods-jetlinksampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE98A5C231C76439B750E7D5 /* Pods-jetlinksample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jetlinksample.release.xcconfig"; path = "Pods/Target Support Files/Pods-jetlinksample/Pods-jetlinksample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB540881E0DA77600F37F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F9D119F37AD9D94C87FEB3 /* Pods_jetlinksample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB5409C1E0DA77700F37F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C8ED1D9B82C48FDB8D59D3 /* Pods_jetlinksampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB540A71E0DA77700F37F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177E0A548F2CAE695E762705 /* Pods_jetlinksampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCA5DBAB7D8959272EF94D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D004ED3A4A4E56F776947 /* Pods_jetlinksample.framework */,
+				820E30F465930A04576D1D7F /* Pods_jetlinksampleTests.framework */,
+				79A6E34928909A50EF85DB7D /* Pods_jetlinksampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB540821E0DA77600F37F0B = {
+			isa = PBXGroup;
+			children = (
+				8CB5408D1E0DA77700F37F0B /* jetlinksample */,
+				8CB540A21E0DA77700F37F0B /* jetlinksampleTests */,
+				8CB540AD1E0DA77700F37F0B /* jetlinksampleUITests */,
+				8CB5408C1E0DA77700F37F0B /* Products */,
+				BAED4FC0200CBBF5B4F48847 /* Pods */,
+				0FCA5DBAB7D8959272EF94D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB5408C1E0DA77700F37F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB5408B1E0DA77700F37F0B /* jetlinksample.app */,
+				8CB5409F1E0DA77700F37F0B /* jetlinksampleTests.xctest */,
+				8CB540AA1E0DA77700F37F0B /* jetlinksampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB5408D1E0DA77700F37F0B /* jetlinksample */ = {
+			isa = PBXGroup;
+			children = (
+				8CB5408E1E0DA77700F37F0B /* AppDelegate.swift */,
+				8CB540901E0DA77700F37F0B /* ViewController.swift */,
+				8CB540921E0DA77700F37F0B /* Main.storyboard */,
+				8CB540951E0DA77700F37F0B /* Assets.xcassets */,
+				8CB540971E0DA77700F37F0B /* LaunchScreen.storyboard */,
+				8CB5409A1E0DA77700F37F0B /* Info.plist */,
+			);
+			path = jetlinksample;
+			sourceTree = "<group>";
+		};
+		8CB540A21E0DA77700F37F0B /* jetlinksampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB540A31E0DA77700F37F0B /* jetlinksampleTests.swift */,
+				8CB540A51E0DA77700F37F0B /* Info.plist */,
+			);
+			path = jetlinksampleTests;
+			sourceTree = "<group>";
+		};
+		8CB540AD1E0DA77700F37F0B /* jetlinksampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB540AE1E0DA77700F37F0B /* jetlinksampleUITests.swift */,
+				8CB540B01E0DA77700F37F0B /* Info.plist */,
+			);
+			path = jetlinksampleUITests;
+			sourceTree = "<group>";
+		};
+		BAED4FC0200CBBF5B4F48847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6075DFCB84051AC5F1A13DB4 /* Pods-jetlinksample.debug.xcconfig */,
+				FE98A5C231C76439B750E7D5 /* Pods-jetlinksample.release.xcconfig */,
+				8013CA87AC93ED65794D7ABF /* Pods-jetlinksampleTests.debug.xcconfig */,
+				A7C6B1C85DC49E994A7E0A32 /* Pods-jetlinksampleTests.release.xcconfig */,
+				207665619C45CB299BD35678 /* Pods-jetlinksampleUITests.debug.xcconfig */,
+				FDF62A2747031ED7991940C8 /* Pods-jetlinksampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB5408A1E0DA77600F37F0B /* jetlinksample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB540B31E0DA77700F37F0B /* Build configuration list for PBXNativeTarget "jetlinksample" */;
+			buildPhases = (
+				40D44602E5FC36D10BCA0456 /* [CP] Check Pods Manifest.lock */,
+				8CB540871E0DA77600F37F0B /* Sources */,
+				8CB540881E0DA77600F37F0B /* Frameworks */,
+				8CB540891E0DA77600F37F0B /* Resources */,
+				674A4D6A90AFA2CD54E43F8F /* [CP] Embed Pods Frameworks */,
+				90DC59074FC6036F4612A098 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jetlinksample;
+			productName = jetlinksample;
+			productReference = 8CB5408B1E0DA77700F37F0B /* jetlinksample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB5409E1E0DA77700F37F0B /* jetlinksampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB540B61E0DA77700F37F0B /* Build configuration list for PBXNativeTarget "jetlinksampleTests" */;
+			buildPhases = (
+				5326E14F9CACA0A4C4C48441 /* [CP] Check Pods Manifest.lock */,
+				8CB5409B1E0DA77700F37F0B /* Sources */,
+				8CB5409C1E0DA77700F37F0B /* Frameworks */,
+				8CB5409D1E0DA77700F37F0B /* Resources */,
+				69A6369F676A42AA98A24DD8 /* [CP] Embed Pods Frameworks */,
+				8D526205E2C1F6D7FDA3C78E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB540A11E0DA77700F37F0B /* PBXTargetDependency */,
+			);
+			name = jetlinksampleTests;
+			productName = jetlinksampleTests;
+			productReference = 8CB5409F1E0DA77700F37F0B /* jetlinksampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CB540A91E0DA77700F37F0B /* jetlinksampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB540B91E0DA77700F37F0B /* Build configuration list for PBXNativeTarget "jetlinksampleUITests" */;
+			buildPhases = (
+				21DF9B697CEE5B904FE355D1 /* [CP] Check Pods Manifest.lock */,
+				8CB540A61E0DA77700F37F0B /* Sources */,
+				8CB540A71E0DA77700F37F0B /* Frameworks */,
+				8CB540A81E0DA77700F37F0B /* Resources */,
+				22C6B193F20AC6954D8B1185 /* [CP] Embed Pods Frameworks */,
+				7400675A49D0DA9949DA9994 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB540AC1E0DA77700F37F0B /* PBXTargetDependency */,
+			);
+			name = jetlinksampleUITests;
+			productName = jetlinksampleUITests;
+			productReference = 8CB540AA1E0DA77700F37F0B /* jetlinksampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB540831E0DA77600F37F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = VesLabs;
+				TargetAttributes = {
+					8CB5408A1E0DA77600F37F0B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = QZZUS45HHN;
+						ProvisioningStyle = Automatic;
+					};
+					8CB5409E1E0DA77700F37F0B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = QZZUS45HHN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CB5408A1E0DA77600F37F0B;
+					};
+					8CB540A91E0DA77700F37F0B = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = QZZUS45HHN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8CB5408A1E0DA77600F37F0B;
+					};
+				};
+			};
+			buildConfigurationList = 8CB540861E0DA77600F37F0B /* Build configuration list for PBXProject "jetlinksample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB540821E0DA77600F37F0B;
+			productRefGroup = 8CB5408C1E0DA77700F37F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB5408A1E0DA77600F37F0B /* jetlinksample */,
+				8CB5409E1E0DA77700F37F0B /* jetlinksampleTests */,
+				8CB540A91E0DA77700F37F0B /* jetlinksampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB540891E0DA77600F37F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB540991E0DA77700F37F0B /* LaunchScreen.storyboard in Resources */,
+				8CB540961E0DA77700F37F0B /* Assets.xcassets in Resources */,
+				8CB540941E0DA77700F37F0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB5409D1E0DA77700F37F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB540A81E0DA77700F37F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21DF9B697CEE5B904FE355D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22C6B193F20AC6954D8B1185 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jetlinksampleUITests/Pods-jetlinksampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40D44602E5FC36D10BCA0456 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5326E14F9CACA0A4C4C48441 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		674A4D6A90AFA2CD54E43F8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jetlinksample/Pods-jetlinksample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69A6369F676A42AA98A24DD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jetlinksampleTests/Pods-jetlinksampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7400675A49D0DA9949DA9994 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jetlinksampleUITests/Pods-jetlinksampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D526205E2C1F6D7FDA3C78E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jetlinksampleTests/Pods-jetlinksampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DC59074FC6036F4612A098 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jetlinksample/Pods-jetlinksample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB540871E0DA77600F37F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB540911E0DA77700F37F0B /* ViewController.swift in Sources */,
+				8CB5408F1E0DA77700F37F0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB5409B1E0DA77700F37F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB540A41E0DA77700F37F0B /* jetlinksampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB540A61E0DA77700F37F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB540AF1E0DA77700F37F0B /* jetlinksampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB540A11E0DA77700F37F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB5408A1E0DA77600F37F0B /* jetlinksample */;
+			targetProxy = 8CB540A01E0DA77700F37F0B /* PBXContainerItemProxy */;
+		};
+		8CB540AC1E0DA77700F37F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB5408A1E0DA77600F37F0B /* jetlinksample */;
+			targetProxy = 8CB540AB1E0DA77700F37F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CB540921E0DA77700F37F0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB540931E0DA77700F37F0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CB540971E0DA77700F37F0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CB540981E0DA77700F37F0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CB540B11E0DA77700F37F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB540B21E0DA77700F37F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB540B41E0DA77700F37F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6075DFCB84051AC5F1A13DB4 /* Pods-jetlinksample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QZZUS45HHN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = jetlinksample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetlink.mysample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8CB540B51E0DA77700F37F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE98A5C231C76439B750E7D5 /* Pods-jetlinksample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QZZUS45HHN;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = jetlinksample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetlink.mysample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8CB540B71E0DA77700F37F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8013CA87AC93ED65794D7ABF /* Pods-jetlinksampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QZZUS45HHN;
+				INFOPLIST_FILE = jetlinksampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veslabs.jetlinksampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jetlinksample.app/jetlinksample";
+			};
+			name = Debug;
+		};
+		8CB540B81E0DA77700F37F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C6B1C85DC49E994A7E0A32 /* Pods-jetlinksampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QZZUS45HHN;
+				INFOPLIST_FILE = jetlinksampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veslabs.jetlinksampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jetlinksample.app/jetlinksample";
+			};
+			name = Release;
+		};
+		8CB540BA1E0DA77700F37F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207665619C45CB299BD35678 /* Pods-jetlinksampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QZZUS45HHN;
+				INFOPLIST_FILE = jetlinksampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veslabs.jetlinksampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jetlinksample;
+			};
+			name = Debug;
+		};
+		8CB540BB1E0DA77700F37F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF62A2747031ED7991940C8 /* Pods-jetlinksampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QZZUS45HHN;
+				INFOPLIST_FILE = jetlinksampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veslabs.jetlinksampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jetlinksample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB540861E0DA77600F37F0B /* Build configuration list for PBXProject "jetlinksample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB540B11E0DA77700F37F0B /* Debug */,
+				8CB540B21E0DA77700F37F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB540B31E0DA77700F37F0B /* Build configuration list for PBXNativeTarget "jetlinksample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB540B41E0DA77700F37F0B /* Debug */,
+				8CB540B51E0DA77700F37F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB540B61E0DA77700F37F0B /* Build configuration list for PBXNativeTarget "jetlinksampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB540B71E0DA77700F37F0B /* Debug */,
+				8CB540B81E0DA77700F37F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB540B91E0DA77700F37F0B /* Build configuration list for PBXNativeTarget "jetlinksampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB540BA1E0DA77700F37F0B /* Debug */,
+				8CB540BB1E0DA77700F37F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB540831E0DA77600F37F0B /* Project object */;
+}
