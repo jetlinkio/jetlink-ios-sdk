@@ -15,43 +15,17 @@
 
 #### a. Install via Cocoapods
 
-You can use [Cocoapods](http://cocoapods.org/) to install `Jetlink` by adding it to your `Podfile`:
+You can use [Cocoapods](http://cocoapods.org/) to install `JetlinkSDK` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '9.0'
+platform :ios, '8.0'
 use_frameworks!
-pod 'Jetlink'
+pod 'JetlinkSDK'
 ```
-
-#### b. Manual Install
-
-1. Download the example project
-2. Drag the Jetlink.framework into your project browser, drop and add into your project.
-3. Select "Copy items if needed", so that you will have a copy of the framework under your project folder.
-4. Congratulations
-
 
 ### 2. Project Settings
 
-#### 2.1. Go to Build Settings of the target of your project and set `Enable Bitcode` to `No`
-
-#### 2.2. If you haven't set your info.plist for network connections, 
-you can open your info.plist file, then copy and paste this XML code block into it
-```
-<key>NSAppTransportSecurity</key>
-<dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
-</dict>
-```
-Or you can select your 'Info.plist' file, then you can also add a new row named `NSAppTransportSecurity` as dictionary
-Then you can add a new value inside the dictionary named `NSAllowsArbitraryLoads` and set it to `YES`
-
-#### 2.3. (optional) If you see so many unnecessary debug log on console;
-1) Go to Edit Scheme
-2) Tap to Arguments tab
-3) Add the Environment Variable 'OS_ACTIVITY_MODE' is 'disable'
-
+Go to Build Settings of the target of your project and set `Enable Bitcode` to `No`
 
 ### 3. Initialize JetLink
 
@@ -76,12 +50,12 @@ You can send basic user information at the beginning to give you more context on
 
 ```
 
-	let jetLinkUser = JetlinkUser()
-	jetLinkUser.email = "salman.khan@veslabs.com"
-	jetLinkUser.name = "Salman"
-	jetLinkUser.surname = "Khan"
+	let jetlinkUser = JetlinkUser()
+	jetlinkUser.email = "test-user@jetlink.io"
+	jetlinkUser.name = "Jetlink"
+	jetlinkUser.surname = "Tester"
 	
-	JetlinkApp.user = jetLinkUser
+	JetlinkApp.user = jetlinkUser
 
 ```
 
