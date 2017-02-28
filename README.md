@@ -40,15 +40,16 @@ Don't forget to replace the <YOUR-APP-ID> and <YOUR-APP-KEY> in the following co
 	jetlinkConfig.jetlinkUIProperties = uiProperties
 
 	JetlinkApp.config = jetlinkConfig
+```
 
 #### For Objective C
+```
 JetlinkUIProperties *properties = [[JetlinkUIProperties alloc] init];
 
 JetlinkConfig *config = [[JetlinkConfig alloc] initWithAppId:@"APP-ID" appToken:@"APP-TOKEN"];
 config.jetlinkUIProperties = properties;
 
 JetlinkApp.config = config;
-
 
 ```
 
@@ -58,7 +59,6 @@ JetlinkApp.config = config;
 You can send basic user information at the beginning to give you more context on the user when your support agents are messaging back and forth with them.   
 
 ```
-
 	let jetlinkUser = JetlinkUser()
 	jetlinkUser.email = "test-user@jetlink.io"
 	jetlinkUser.name = "Jetlink"
