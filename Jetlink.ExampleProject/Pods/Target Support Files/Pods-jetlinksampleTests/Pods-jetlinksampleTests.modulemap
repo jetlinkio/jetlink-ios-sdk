@@ -1,6 +1,0 @@
-framework module Pods_jetlinksampleTests {
-  umbrella header "Pods-jetlinksampleTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

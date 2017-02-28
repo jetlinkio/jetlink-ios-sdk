@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1g-Iz-R68">
+                                <rect key="frame" x="95" y="112" width="168" height="114"/>
+                                <state key="normal" title="Chat"/>
+                                <connections>
+                                    <action selector="ChatClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c6R-c1-rTy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1S-qn-BLe">
+                                <rect key="frame" x="101" y="323" width="156" height="114"/>
+                                <state key="normal" title="FAQ"/>
+                                <connections>
+                                    <action selector="FAQClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gqn-3d-JNv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="H1S-qn-BLe" secondAttribute="bottom" constant="225" id="0pe-6b-Bnk"/>
+                            <constraint firstItem="W1g-Iz-R68" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="94" id="96X-cB-08j"/>
+                            <constraint firstItem="H1S-qn-BLe" firstAttribute="height" secondItem="W1g-Iz-R68" secondAttribute="height" id="BDb-Gh-UVy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H1S-qn-BLe" secondAttribute="trailing" constant="84" id="II4-zV-ObR"/>
+                            <constraint firstItem="H1S-qn-BLe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="103" id="P3i-sG-t5j"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="W1g-Iz-R68" secondAttribute="trailing" constant="47" id="RC4-Jw-USP"/>
+                            <constraint firstItem="H1S-qn-BLe" firstAttribute="top" secondItem="W1g-Iz-R68" secondAttribute="bottom" constant="100" id="bwR-Fu-kFg"/>
+                            <constraint firstItem="W1g-Iz-R68" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="128" id="sv3-0j-IL0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

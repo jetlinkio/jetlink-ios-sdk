@@ -1,0 +1,10 @@
+framework module JetlinkSDK {
+  umbrella header "JetlinkSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module JetlinkSDK.Swift {
+    header "JetlinkSDK-Swift.h"
+}
