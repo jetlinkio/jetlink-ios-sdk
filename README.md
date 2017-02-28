@@ -41,6 +41,15 @@ Don't forget to replace the <YOUR-APP-ID> and <YOUR-APP-KEY> in the following co
 
 	JetlinkApp.config = jetlinkConfig
 
+#### For Objective C
+JetlinkUIProperties *properties = [[JetlinkUIProperties alloc] init];
+
+JetlinkConfig *config = [[JetlinkConfig alloc] initWithAppId:@"APP-ID" appToken:@"APP-TOKEN"];
+config.jetlinkUIProperties = properties;
+
+JetlinkApp.config = config;
+
+
 ```
 
 
@@ -56,6 +65,14 @@ You can send basic user information at the beginning to give you more context on
 	jetlinkUser.surname = "Tester"
 	
 	JetlinkApp.user = jetlinkUser
+
+#### For Objective C
+JetlinkUser *user = [[JetlinkUser alloc] init];
+user.email = @"test-email@jetlink.io";
+user.name = @"Name 123";
+user.surname = @"Surname 123";
+
+JetlinkApp.user = user;
 
 ```
 
