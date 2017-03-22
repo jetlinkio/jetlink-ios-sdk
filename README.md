@@ -4,8 +4,6 @@
 
 Messaging platform for easy commerce and better support.
 
-##### Jetlink is the easiest way to connect with your customers for selling and support
-
 ----------------------------------------------------------------------------------------
 
 
