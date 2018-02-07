@@ -31,22 +31,14 @@ Add the following code line into your app's AppDelegate application(_ applicatio
 
 Don't forget to replace the <YOUR-APP-ID> and <YOUR-APP-KEY> in the following code snippet with the actual app ID and app key.   
 
-```
-	let uiProperties = JetlinkUIProperties()
-		
+```		
 	let jetlinkConfig = JetlinkConfig(appId: "<YOUR-APP-ID>", appToken: "<YOUR-APP-KEY>")
-	jetlinkConfig.jetlinkUIProperties = uiProperties
-
 	JetlinkApp.config = jetlinkConfig
 ```
 
 #### For Objective C
 ```
-JetlinkUIProperties *properties = [[JetlinkUIProperties alloc] init];
-
 JetlinkConfig *config = [[JetlinkConfig alloc] initWithAppId:@"APP-ID" appToken:@"APP-TOKEN"];
-config.jetlinkUIProperties = properties;
-
 JetlinkApp.config = config;
 
 ```
@@ -77,11 +69,13 @@ JetlinkApp.user = user;
 ```
 
 
-### 5. Call the Chat or FAQ viewcontrollers
+### 5. Call the Chat viewcontroller
 
 You can present the chat view controller and FAQ view controller with only one line of code
 
 ```
-	JetlinkApp.activateChatPanel()
-	JetlinkApp.activateFAQPanel()
+	JetlinkApp.activateChatPanel()	
 ```
+
+That's all.. You can start messaging on your on mobile applicaion.
+
