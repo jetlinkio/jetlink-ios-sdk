@@ -2,20 +2,8 @@
 //  JetlinkSDK.h
 //  JetlinkSDK
 //
-//  Created by Irfan Kaya on 21/12/16.
-//  Copyright © 2016 G Boson. All rights reserved.
-//
-
-#ifndef JetlinkSDK_h
-#define JetlinkSDK_h
-
-
-//
-//  JetlinkSDK.h
-//  JetlinkSDK
-//
-//  Created by Irfan Kaya on 21/12/16.
-//  Copyright © 2016 G Boson. All rights reserved.
+//  Created by Irfan Kaya on 12/09/2017.
+//  Copyright © 2017 G Boson Interactive. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -29,7 +17,3 @@ FOUNDATION_EXPORT const unsigned char JetlinkSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <JetlinkSDK/PublicHeader.h>
 
 
-#import <JetlinkXMPP/JetlinkXMPP.h>
-#import <JetlinkSDK/XMPPHandler.h>
-
-#endif /* JetlinkSDK_h */

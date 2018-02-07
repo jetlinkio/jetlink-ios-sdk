@@ -26,20 +26,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    
-    JetlinkUIProperties *properties = [[JetlinkUIProperties alloc] init];
-    
     JetlinkConfig *config = [[JetlinkConfig alloc] initWithAppId:@"APP-ID" appToken:@"APP-TOKEN"];
-    config.jetlinkUIProperties = properties;
  
     JetlinkApp.config = config;
     
+    /*
     JetlinkUser *user = [[JetlinkUser alloc] init];
     user.email = @"test-email@jetlink.io";
     user.name = @"Name 123";
     user.surname = @"Surname 123";
     
     JetlinkApp.user = user;
+     */
     
     if( SYSTEM_VERSION_LESS_THAN( @"10.0" ) ){
         [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound |    UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];

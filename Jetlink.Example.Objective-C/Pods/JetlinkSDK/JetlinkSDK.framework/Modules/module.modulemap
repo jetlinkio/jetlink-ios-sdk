@@ -7,4 +7,5 @@ framework module JetlinkSDK {
 
 module JetlinkSDK.Swift {
     header "JetlinkSDK-Swift.h"
+    requires objc
 }

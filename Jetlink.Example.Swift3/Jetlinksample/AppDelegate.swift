@@ -19,19 +19,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let uiProperties = JetlinkUIProperties()
-        
         let jetlinkConfig = JetlinkConfig(appId: "<APP-ID>", appToken: "<APP-TOKEN>")
-        jetlinkConfig.jetlinkUIProperties = uiProperties
         JetlinkApp.config = jetlinkConfig
         
-        
+        /*
         let jetlinkUser = JetlinkUser()
         jetlinkUser.email = "<USER-EMAIL>"
         jetlinkUser.name = "<NAME>"
         jetlinkUser.surname = "<SURNAME>"
         JetlinkApp.user = jetlinkUser
- 
+         */
         
         return true
     }
