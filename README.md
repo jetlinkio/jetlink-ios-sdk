@@ -34,7 +34,7 @@ https://public.jetlink.io/Home/MobilSDK?appId=<YOUR-APP-ID>&appKey=<YOUR-APP-KEY
 ```
 
 You can send any user sensitive information via Jetlink WebView URL.
-Name, surname, email, phonei your user unique ID... You can send all or some of these due to which information is stored on your system. Jetlink UI will open with these information and remember the user by these values another time they will chat again.  
+Name, surname, email, phone and your user unique ID... You can send all or some of these due to which information is stored on your system. Jetlink UI will open with these information and remember the user by these values another time they will chat again.  
 
 That's all.. You can start messaging on your on mobile applicaion.
 
