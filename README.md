@@ -1,4 +1,4 @@
-## Jetlink iOS - How to use Jetlink messaging UI in iOS applicaitons
+## Jetlink iOS - How to use Jetlink messaging UI in iOS applications
 [![Website](https://static.wixstatic.com/media/5750ed_9f0be19719cc4fdb89b40bdf78e22584~mv2.png/v1/fill/w_203,h_137,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Jetlink%20New%20Logo.png)](https://jetlink.io)
 ### [Official Website](https://jetlink.io/)
 
