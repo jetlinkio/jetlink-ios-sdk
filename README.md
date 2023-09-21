@@ -1,81 +1,40 @@
-## JetLink iOS SDK
+## Jetlink iOS - How to use Jetlink messaging UI in iOS applicaitons
 [![Website](https://static.wixstatic.com/media/5750ed_9f0be19719cc4fdb89b40bdf78e22584~mv2.png/v1/fill/w_203,h_137,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Jetlink%20New%20Logo.png)](https://jetlink.io)
 ### [Official Website](https://jetlink.io/)
 
-Messaging platform for easy commerce and better support.
-
+Meaningful experiences + high ROI delivered with the most sophisticated Conversational AI
 ----------------------------------------------------------------------------------------
-  
 
 ## HOW TO USE JETLINK
 
-### 1. Install Jetlink.framework
+### 1. Place any suitable icon on you application.
+It can be used in Menu, Header Bar or anywhere that you want your users can reach chatbot interface.
 
-#### a. Install via Cocoapods
+### 2. Open Jetlink Webview URL after clicking chatbot icon
 
-You can use [Cocoapods](http://cocoapods.org/) to install `JetlinkSDK` by adding it to your `Podfile`:
+You can find Jetlink Webview URL on your Jetlink Dashboard. It should be in Settings -> iOS
 
-```ruby
-platform :ios, '8.0'
-use_frameworks!
-pod 'JetlinkSDK'
-```
-
-### 2. Project Settings
-
-Go to Build Settings of the target of your project and set `Enable Bitcode` to `No`
-
-### 3. Initialize JetLink
-
-Add the following code line into your app's AppDelegate application(_ application: didFinishLaunchingWithOptions launchOptions:) method. 
-
-Don't forget to replace the <YOUR-APP-ID> and <YOUR-APP-KEY> in the following code snippet with the actual app ID and app key.   
-
-```		
-	let jetlinkConfig = JetlinkConfig(appId: "<YOUR-APP-ID>", appToken: "<YOUR-APP-KEY>")
-	JetlinkApp.config = jetlinkConfig
-```
-
-#### For Objective C
-```
-JetlinkConfig *config = [[JetlinkConfig alloc] initWithAppId:@"APP-ID" appToken:@"APP-TOKEN"];
-JetlinkApp.config = config;
+Jetlink WebView URL can be as following
 
 ```
-
-
-### 4. Initialize User
-
-You can send basic user information at the beginning to give you more context on the user when your support agents are messaging back and forth with them.   
-
-```
-	let jetlinkUser = JetlinkUser()
-	jetlinkUser.email = "test-user@jetlink.io"
-	jetlinkUser.name = "Jetlink"
-	jetlinkUser.surname = "Tester"
-	
-	JetlinkApp.user = jetlinkUser
-
+https://public.jetlink.io/Home/MobilSDK?appId=<YOUR-APP-ID>&appKey=<YOUR-APP-KEY>
+	&mobileSDKType=ios&mobileDeviceName=<DEVICE-NAME>&mobileDeviceOS=<DEVICE-OS-VERSION>
 ```
 
-#### For Objective C
-```
-JetlinkUser *user = [[JetlinkUser alloc] init];
-user.email = @"test-email@jetlink.io";
-user.name = @"Name 123";
-user.surname = @"Surname 123";
+### 4. Initialize Jetlink UI with User's Login Information
 
-JetlinkApp.user = user;
-```
-
-
-### 5. Call the Chat viewcontroller
-
-You can present the chat view controller and FAQ view controller with only one line of code
+You can also open Jetlink Webview URL with your user's login information such as name, surname, email, phone number, and userId
 
 ```
-	JetlinkApp.activateChatPanel()	
+https://public.jetlink.io/Home/MobilSDK?appId=<YOUR-APP-ID>&appKey=<YOUR-APP-KEY>
+	&mobileSDKType=ios&mobileDeviceName=<DEVICE-NAME>&mobileDeviceOS=<DEVICE-OS-VERSION>
+	&username=<USER-FIRST-NAME>&userSurname=<USER-SURNAME>
+	&userEmail=<USER-EMAIL>&userPhone=<USER-PHONE-NUMBER>
+	&userSourceUserId=<USER-UNIQUE-ID-IN-YOUR-SYSTEM>
 ```
+
+You can send any user sensitive information via Jetlink WebView URL.
+Name, surname, email, phonei your user unique ID... You can send all or some of these due to which information is stored on your system. Jetlink UI will open with these information and remember the user by these values another time they will chat again.  
 
 That's all.. You can start messaging on your on mobile applicaion.
 
